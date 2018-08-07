@@ -57,7 +57,7 @@ static const uint8_t u8g_dev_uc1701_mini12864_init_seq[] PROGMEM = {
   0x000,		/* 4x */
   0x023,		/* set V0 voltage resistor ratio to large */
   0x081,		/* set contrast */
-  0x027,		/* contrast value */
+  0x032,		/* contrast value */
   0x0ac,		/* indicator */
   0x000,		/* disable */
   0x0af,		/* display on */
